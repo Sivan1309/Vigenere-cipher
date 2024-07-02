@@ -10,7 +10,36 @@ The Vigenère cipher is a method of encrypting alphabetic text by using a series
 adequate security if properly used with long, random keys that remain secret. 
 + It would likely not stand up to cryptanalysis by a dedicated adversary. But it could deter casual eavesdropping on messages. Proper key management is essential. 
 + More secure alternatives would be block ciphers like AES, or public key encryption if needed to provide authentication and non-repudiation. The Vigenère cipher is likely best suited for 
-educational purposes today. 
+educational purposes today.
+
+## Installation
+
+To install and use the program, follow these steps:
+
+### Prerequisites
+
+- Git
+- GCC (GNU Compiler Collection)
+
+### Steps
+
+**1. Clone the repository:**
+
+   Open your terminal or command prompt and run:
+   git clone https://github.com/Sivan1309/Vigenere-cipher.git
+
+**2. Navigate to the repository:**
+   
+   cd your-repository-name
+
+**3. Compile the program:** 
+
+  gcc -o out cipher code.c
+
+**4. Run the program:** 
+
+  ./out
+
 
 # Sample Output
 ![image](https://github.com/Sivan1309/Vigenere-cipher/assets/71920694/cbecad79-1309-409e-ad4b-e3903418edb7)
